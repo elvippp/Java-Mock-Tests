@@ -20,6 +20,10 @@ public class LionTest {
     public void init() throws Exception {
         feline = Mockito.mock(Feline.class); // Создаем мок объект для класса Feline
         lion = new Lion("Самка", feline); // Создаем экземпляр класса Lion
+        int a  = 5;
+
+        String b = "Test";
+
     }
 
     /**
@@ -41,6 +45,7 @@ public class LionTest {
     public void doesHaveMane() throws Exception {
         // Проверяем, что у самки нет гривы
         assertFalse(lion.doesHaveMane());
+        lion.Getmane()
     }
 
     /**
